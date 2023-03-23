@@ -28,10 +28,18 @@ public class ListDemo {
 
         LinkedList list = new LinkedList<Integer>();
         list.add(10);
+        list.add(10);
+        list.add(10);  
         list.add(20);
         list.add(30);
         System.out.println(list.remove());
 
+        if(list.contains(20))
+        System.out.println(list.indexOf(200));
+
+        System.out.println(list);
+        // remove first element
+        System.out.println(list.remove());
         System.out.println(list);
 
     }
